@@ -1,0 +1,7 @@
+ALTER TYPE print_job_status ADD VALUE IF NOT EXISTS 'review_ready';
+
+ALTER TABLE files
+  ADD COLUMN page_count INTEGER NOT NULL DEFAULT 1;
+
+ALTER TABLE print_jobs
+  ADD COLUMN rate_paise INTEGER NOT NULL DEFAULT 0;

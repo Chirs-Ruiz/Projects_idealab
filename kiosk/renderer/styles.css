@@ -1,0 +1,55 @@
+:root {
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+}
+
+.panel {
+  margin-top: 24px;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+}
+
+button {
+  background: #0f172a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.status {
+  color: #475569;
+}
+
+.small {
+  font-size: 12px;
+  color: #64748b;
+}
